@@ -24,6 +24,7 @@ class MemoryMemberRepositoryTest { //굳이 public 하지 않아도 됨. 가져�
     public void afterEach(){
         repository.clearStore(); //저장소를 지우도록 한다.
     }
+
     @Test
     public void save(){
         Member member = new Member();
